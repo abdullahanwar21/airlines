@@ -1,0 +1,120 @@
+@import url('responsive.css');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IM Fell English', serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color:#e34d12;
+    --secondary-color:#0e8c89;
+}
+/* =================== First Navbar Started ================== */
+.custom-nav{
+    background-color: #0e8c89;
+    padding: 0px  !important;
+    color: #fff;
+    line-height: 50px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+ul.custom-nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    list-style: none;
+}
+.custom-nav-links li a {
+    text-decoration: none;
+    color: #fff !important;
+}
+/* =================== First Navbar Ended ======================== */
+/* =================== Second Navbar Started ======================== */
+nav.navbar {
+    box-shadow: -1px 33px 23px -12px rgba(199,181,181,0.75);
+-webkit-box-shadow: -1px 33px 23px -12px rgba(199,181,181,0.75);
+-moz-box-shadow: -1px 33px 23px -12px rgba(199,181,181,0.75);
+}
+.navbar-brand{
+    color: var(--secondary-color);
+}
+.navbar-brand:hover{
+    color: var(--secondary-color);
+}
+.navbar-nav .nav-item{
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    font-family: 'IM Fell English', serif;
+}
+.my-btn{
+    padding: 8px 20px;
+    color: #ffff;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+}
+/* =================== Second Navbar Ended ======================== */
+.hero{
+    background:linear-gradient(rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)) ,  url('../assets/img/hero-img.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 88vh;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 4rem;
+    color: #ffff;
+}
+
+/* Where to fly  */
+section h2 span {
+    color: var(--secondary-color);
+}
+.card{
+    outline: none !important;
+    border: none;
+}
+.card img {
+    max-height: 200px;
+    min-height: 200px;
+}
+h5.card-title , a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--secondary-color) !important;
+}
+/* Where to fly  */
+/* Experience */
+.experience {
+    background:linear-gradient(rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)) , url('../assets/img/img-06.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 78vh;
+    position: relative;
+}
+.ticket-form {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    /* margin-left: 100px; */
+    right: 0;
+    color: #fff;
+}
+/* Experience */
+footer{
+    padding: 20px;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: #ffff;
+}

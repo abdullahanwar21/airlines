@@ -1,0 +1,9 @@
+@media (max-width:480px) {
+    .custom-nav{
+        line-height: 20px;
+        padding: 10px;
+    }
+    .hero-content{
+        /* font-size: 2rem ; */
+    }
+}
